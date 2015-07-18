@@ -11,6 +11,9 @@ public class GameCon : MonoBehaviour {
     public bool ctrl2Found = false;
     public InputDevice controllerP1;
     public InputDevice controllerP2;
+    public int score = 0;
+    public float buildingHeath = 100;
+    public float cthuluMood = 100;
     
 
     void Awake()
@@ -31,7 +34,7 @@ public class GameCon : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-	
+		score = 0;
 	}
 	
 	// Update is called once per frame
