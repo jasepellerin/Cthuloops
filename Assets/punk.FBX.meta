@@ -1,0 +1,135 @@
+fileFormatVersion: 2
+guid: a6c13124597ab77459a64d18857ec3d5
+timeCreated: 1437267252
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: punk_arm_lower_L
+    100004: punk_arm_lower_R
+    100006: punk_arm_upper_L
+    100008: punk_arm_upper_R
+    100010: punk_foot_L
+    100012: punk_foot_R
+    100014: punk_head
+    100016: punk_leg_lower_L
+    100018: punk_leg_lower_R
+    100020: punk_leg_upper_L
+    100022: punk_leg_upper_R
+    100024: punk_torso
+    400000: //RootNode
+    400002: punk_arm_lower_L
+    400004: punk_arm_lower_R
+    400006: punk_arm_upper_L
+    400008: punk_arm_upper_R
+    400010: punk_foot_L
+    400012: punk_foot_R
+    400014: punk_head
+    400016: punk_leg_lower_L
+    400018: punk_leg_lower_R
+    400020: punk_leg_upper_L
+    400022: punk_leg_upper_R
+    400024: punk_torso
+    2300000: //RootNode
+    2300002: punk_arm_lower_L
+    2300004: punk_arm_lower_R
+    2300006: punk_arm_upper_L
+    2300008: punk_arm_upper_R
+    2300010: punk_foot_L
+    2300012: punk_foot_R
+    2300014: punk_head
+    2300016: punk_leg_lower_L
+    2300018: punk_leg_lower_R
+    2300020: punk_leg_upper_L
+    2300022: punk_leg_upper_R
+    2300024: punk_torso
+    3300000: //RootNode
+    3300002: punk_arm_lower_L
+    3300004: punk_arm_lower_R
+    3300006: punk_arm_upper_L
+    3300008: punk_arm_upper_R
+    3300010: punk_foot_L
+    3300012: punk_foot_R
+    3300014: punk_head
+    3300016: punk_leg_lower_L
+    3300018: punk_leg_lower_R
+    3300020: punk_leg_upper_L
+    3300022: punk_leg_upper_R
+    3300024: punk_torso
+    4300000: punk_hips
+    4300002: punk_leg_upper_R
+    4300004: punk_leg_lower_R
+    4300006: punk_foot_R
+    4300008: punk_torso
+    4300010: punk_arm_upper_R
+    4300012: punk_arm_lower_R
+    4300014: punk_arm_upper_L
+    4300016: punk_arm_lower_L
+    4300018: punk_head
+    4300020: punk_leg_upper_L
+    4300022: punk_leg_lower_L
+    4300024: punk_foot_L
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

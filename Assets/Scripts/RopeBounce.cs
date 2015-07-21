@@ -5,12 +5,14 @@ public class RopeBounce : MonoBehaviour {
     public float bounceForce = 500f;
     public float angleForce = .0001f;
     public Transform centerPiece;
-    
+
+	private AudioSource bounceSource;
     private GameCon gameCon;
 
 	// Use this for initialization
 	void Start () {
         gameCon = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameCon>();
+		bounceSource = this.GetComponent<AudioSource>();
 	}
 	
     void OnCollisionEnter2D(Collision2D other)
@@ -23,6 +25,9 @@ public class RopeBounce : MonoBehaviour {
                 float angleAmount = AngleDir(other.transform.position, centerPiece.position);
                 otherBody.AddForce(Vector2.up * bounceForce * (gameCon.PlayerDistance() - gameCon.minPlayerDistance));
                 otherBody.AddForce(Vector2.right * angleForce * (gameCon.PlayerDistance() - gameCon.minPlayerDistance) * angleAmount *-1);
+				if (!bounceSource.isPlaying) {
+					bounceSource.Play ();
+				}
             }
         }
 

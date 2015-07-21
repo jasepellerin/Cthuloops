@@ -1,0 +1,112 @@
+fileFormatVersion: 2
+guid: 3aee9acaf7a33ce4f8803ca40dd48309
+timeCreated: 1437287304
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: cthulu_arm_lower_L
+    100004: cthulu_arm_lower_L 1
+    100006: cthulu_arm_lower_L 2
+    100008: cthulu_arm_lower_L 3
+    100010: cthulu_head_close
+    100012: cthulu_head_open
+    100014: cthulu_tentacles
+    100016: cthulu_torso
+    400000: //RootNode
+    400002: cthulu_arm_lower_L
+    400004: cthulu_arm_lower_L 1
+    400006: cthulu_arm_lower_L 2
+    400008: cthulu_arm_lower_L 3
+    400010: cthulu_head_close
+    400012: cthulu_head_open
+    400014: cthulu_tentacles
+    400016: cthulu_torso
+    2300000: cthulu_arm_lower_L
+    2300002: cthulu_arm_lower_L 1
+    2300004: cthulu_arm_lower_L 2
+    2300006: cthulu_arm_lower_L 3
+    2300008: cthulu_head_close
+    2300010: cthulu_head_open
+    2300012: cthulu_tentacles
+    2300014: cthulu_torso
+    3300000: cthulu_arm_lower_L
+    3300002: cthulu_arm_lower_L 1
+    3300004: cthulu_arm_lower_L 2
+    3300006: cthulu_arm_lower_L 3
+    3300008: cthulu_head_close
+    3300010: cthulu_head_open
+    3300012: cthulu_tentacles
+    3300014: cthulu_torso
+    4300000: cthulu_torso
+    4300002: cthulu_head_close
+    4300004: cthulu_tentacles
+    4300006: cthulu_head_open
+    4300008: cthulu_arm_lower_L
+    4300010: cthulu_arm_lower_L
+    4300012: cthulu_arm_lower_L
+    4300014: cthulu_arm_lower_L
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

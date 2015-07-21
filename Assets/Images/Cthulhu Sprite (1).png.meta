@@ -1,0 +1,187 @@
+fileFormatVersion: 2
+guid: 19c252cd1c17d5e41ade655e86f647df
+timeCreated: 1437294008
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Cthulhu Sprite (1)_0
+    21300002: Cthulhu Sprite (1)_1
+    21300004: Cthulhu Sprite (1)_2
+    21300006: Cthulhu Sprite (1)_3
+    21300008: Cthulhu Sprite (1)_4
+    21300010: Cthulhu Sprite (1)_5
+    21300012: Cthulhu Sprite (1)_6
+    21300014: Cthulhu Sprite (1)_7
+    21300016: Cthulhu Sprite (1)_8
+    21300018: Cthulhu Sprite (1)_9
+    21300020: Cthulhu Sprite (1)_10
+    21300022: Cthulhu Sprite (1)_11
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Cthulhu Sprite (1)_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1481
+        width: 810
+        height: 637
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cthulhu Sprite (1)_1
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 1715
+        width: 497
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cthulhu Sprite (1)_2
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 712
+        width: 856
+        height: 701
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cthulhu Sprite (1)_3
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 1042
+        width: 693
+        height: 625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cthulhu Sprite (1)_4
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 807
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cthulhu Sprite (1)_5
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 549
+        width: 498
+        height: 463
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cthulhu Sprite (1)_6
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 57
+        width: 232
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cthulhu Sprite (1)_7
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 448
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cthulhu Sprite (1)_8
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 13
+        width: 315
+        height: 636
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cthulhu Sprite (1)_9
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 19
+        width: 270
+        height: 696
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cthulhu Sprite (1)_10
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 19
+        width: 317
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cthulhu Sprite (1)_11
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 30
+        width: 498
+        height: 463
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

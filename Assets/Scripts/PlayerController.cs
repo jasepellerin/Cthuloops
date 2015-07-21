@@ -8,7 +8,6 @@ public class PlayerController : MonoBehaviour
     public bool isLeftGuy = false;
 
     private float playerDistance;
-    private bool isOnePlayer = false;
     private GameCon gameCon;
     private bool canUseController = false;
 
@@ -16,7 +15,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         gameCon = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameCon>();
-        if ((gameCon.ctrl1Found && isOnePlayer) || (gameCon.ctrl1Found && gameCon.ctrl2Found && !isOnePlayer))
+        if ((gameCon.ctrl1Found && gameCon.isOnePlayer) || (gameCon.ctrl1Found && gameCon.ctrl2Found && !gameCon.isOnePlayer))
             canUseController = true;
     }
 
@@ -27,15 +26,26 @@ public class PlayerController : MonoBehaviour
         InputContoller();
     }
 
-
     void InputContoller()
     {
-        if (isOnePlayer)
+        if (gameCon.isOnePlayer)
         {
-            if (Input.GetAxis("Horizontal") > 0 || (canUseController ? gameCon.controllerP1.LeftStickX.Value > 0 : false))
-                transform.position = Vector3.Lerp(transform.position, new Vector3(transform.position.x + speed, transform.position.y), Time.deltaTime);
-            if (Input.GetAxis("Horizontal") < 0 || (canUseController ? gameCon.controllerP1.LeftStickX.Value < 0 : false))
-                transform.position = Vector3.Lerp(transform.position, new Vector3(transform.position.x - speed, transform.position.y), Time.deltaTime);
+            if (isLeftGuy)
+            {
+                if ((Input.GetAxis("Horizontal") > 0 || (canUseController ? gameCon.controllerP1.LeftStickX.Value > 0 : false)) && transform.position.x < 5)
+                    transform.position = Vector3.Lerp(transform.position, new Vector3(transform.position.x + speed, transform.position.y), Time.deltaTime);
+                if ((Input.GetAxis("Horizontal") < 0 || (canUseController ? gameCon.controllerP1.LeftStickX.Value < 0 : false)) && transform.position.x > -25)
+                    transform.position = Vector3.Lerp(transform.position, new Vector3(transform.position.x - speed, transform.position.y), Time.deltaTime);
+            }
+            else
+            {
+                if ((Input.GetAxis("Horizontal") > 0 || (canUseController ? gameCon.controllerP1.LeftStickX.Value > 0 : false)) && transform.position.x < 25)
+                    transform.position = Vector3.Lerp(transform.position, new Vector3(transform.position.x + speed, transform.position.y), Time.deltaTime);
+                if ((Input.GetAxis("Horizontal") < 0 || (canUseController ? gameCon.controllerP1.LeftStickX.Value < 0 : false)) && transform.position.x > -5)
+                    transform.position = Vector3.Lerp(transform.position, new Vector3(transform.position.x - speed, transform.position.y), Time.deltaTime);
+
+            }
+
 
             if ((Input.GetAxis("Vertical") > 0 || (canUseController ? gameCon.controllerP1.RightStickX.Value < 0 : false)) && playerDistance > gameCon.minPlayerDistance)
             {
@@ -46,16 +56,18 @@ public class PlayerController : MonoBehaviour
             }
             if ((Input.GetAxis("Vertical") < 0 || (canUseController ? gameCon.controllerP1.RightStickX.Value > 0 : false)) && playerDistance < gameCon.maxPlayerDistance)
             {
-                if (isLeftGuy)
+                if (isLeftGuy && transform.position.x > -25)
                     transform.position = Vector3.Lerp(transform.position, new Vector3(transform.position.x - speed, transform.position.y), Time.deltaTime);
-                else
+                else if (transform.position.x < 25)
+                {
                     transform.position = Vector3.Lerp(transform.position, new Vector3(transform.position.x + speed, transform.position.y), Time.deltaTime);
+                }
             }
 
         }
         else
         {
-            if (!isLeftGuy)
+            if (!isLeftGuy && transform.position.x > -25)
             {
                 if ((Input.GetAxis("Horizontal") > 0 || (canUseController ? gameCon.controllerP1.LeftStickX.Value > 0 : false)) && playerDistance < gameCon.maxPlayerDistance)
                     transform.position = Vector3.Lerp(transform.position, new Vector3(transform.position.x + speed, transform.position.y), Time.deltaTime);
@@ -63,7 +75,7 @@ public class PlayerController : MonoBehaviour
                     transform.position = Vector3.Lerp(transform.position, new Vector3(transform.position.x - speed, transform.position.y), Time.deltaTime);
 
             }
-            else
+            else if (transform.position.x < 25)
             {
                 if ((Input.GetAxis("HorizontalP2") > 0 || (canUseController ? gameCon.controllerP2.LeftStickX.Value > 0 : false)) && playerDistance > gameCon.minPlayerDistance)
                     transform.position = Vector3.Lerp(transform.position, new Vector3(transform.position.x + speed, transform.position.y), Time.deltaTime);
